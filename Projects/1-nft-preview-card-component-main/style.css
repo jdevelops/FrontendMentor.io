@@ -51,14 +51,17 @@ body {
     right: 0;
     height: 100%;
     width: 100%;
-    opacity: 0;
-    background-color: hsl(178, 100%, 50%);
     border-radius: 0.5em;
     z-index: 1;
 }
 
 .overlay-div:hover {
-    opacity: 0.5;
+    opacity: 1;
+    background-image: url(./images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    border-radius: 0.5em;
 }
 
 .overlay-img {
@@ -142,11 +145,12 @@ hr {
     border: solid 1px;
 }
 
-h3 {
+h2 {
     color: hsl(0, 0%, 100%);
     font-weight: 600;
+    font-size: 1.25em;
 }
-h3:hover {
+h2:hover {
     color: hsl(178, 100%, 50%);
 }
 
@@ -154,8 +158,36 @@ p {
     color: hsl(215, 51%, 70%);
     font-weight: 400;
     font-size: 0.9rem;
+    line-height: 1.5em;
 }
 
 a {
     text-decoration: none;
+}
+
+/*media queries*/
+@media screen and (max-width: 375px) {
+    .main-box {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 18px;
+    }
+
+    .main-box {
+        width: 262px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    * {
+        font-size: 22px;
+    }
+
+    .main-box {
+        min-width: 22.5vw;
+    }
 }
