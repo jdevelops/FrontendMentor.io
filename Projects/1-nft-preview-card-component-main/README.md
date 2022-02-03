@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [https://frontend-mentor-io-nft-card.vercel.app](https://your-solution-url.com)
+-   Solution URL: [https://frontend-mentor-io-nft-card.vercel.app]
 
 ### Built with
 

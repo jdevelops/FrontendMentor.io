@@ -8,24 +8,29 @@
     padding: 0px;
 }
 
-body {
+main {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: hsl(212, 45%, 89%);
 }
 
 .card {
-    width: 300px;
-    border: 1px solid red;
+    max-width: 300px;
     border-radius: 1rem;
+    background-color: white;
 }
 
 .card__aside {
     display: flex;
     flex-direction: column;
-    align-content: space-between;
     margin: 1em;
+}
+
+.card__aside--secondary {
+    margin: 0.5rem;
 }
 
 .card__image {
@@ -37,4 +42,20 @@ body {
 .card__heading {
     font-weight: 700;
     margin-bottom: 1em;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.card__text {
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-weight: 400;
+}
+
+.attribution {
+    position: fixed;
+    max-width: 80vw;
+    text-align: center;
+    bottom: 0px;
 }
