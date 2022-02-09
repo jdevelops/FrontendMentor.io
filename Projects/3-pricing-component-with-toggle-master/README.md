@@ -13,7 +13,7 @@ Every point from challenge was completed.
 
 ### Links
 
--   Solution URL: [Add solution URL here]
+-   Solution URL: [https://frontend-mentor-io-pricing-component-with-toggle.vercel.app]
 
 ### Built with
 
